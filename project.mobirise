@@ -259,21 +259,6 @@
     "uniqCompNum": 4,
     "imageResize": true,
     "publishChangesOnly": true,
-    "cookiesAlert": {
-      "customDialogSelector": false,
-      "colorText": "#424a4d",
-      "colorBg": "#ffffff",
-      "colorButton": "#FFCA3A",
-      "rejectColor": "#ffffff",
-      "colorLink": "#424a4d",
-      "underlineLink": true,
-      "opacityOverlay": "0",
-      "bgOpacity": "100",
-      "text": "Używamy \"ciasteczek\" aby w pełni zrozumieć i zindywidualizować twoje doświadczenia.  <a href='privacy.html'>politka ciasteczek</a>. Kliknięcie przycisku NIE ZEZWALAJ może zablokować pewne funkcje naszej strony.",
-      "textButton": "akceptuj",
-      "rejectText": "Nie zezwalaj"
-    },
-    "cookiesAlertType": "2",
     "favicon": false,
     "mbrsiteDomain": "487couture",
     "usedWebp": false,
@@ -281,7 +266,8 @@
     "sitemapSwitcher": false,
     "sitemapSwitcherAuto": false,
     "siteUrl": false,
-    "gdpr": false
+    "gdpr": false,
+    "cookiesAlert": false
   },
   "pages": {
     "index.html": {
