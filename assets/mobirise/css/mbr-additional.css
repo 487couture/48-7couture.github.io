@@ -572,17 +572,12 @@ a.text-black.active {
   color: #000000 !important;
 }
 a[class*="text-"]:not(.nav-link):not(.dropdown-item):not([role]):not(.navbar-caption) {
+  transition: 0.2s;
   position: relative;
-  background-image: transparent;
+  background-image: linear-gradient(currentColor 50%, currentColor 50%);
   background-size: 10000px 2px;
   background-repeat: no-repeat;
-  background-position: 0px 1.2em;
-  background-position: -10000px 1.2em;
-}
-a[class*="text-"]:not(.nav-link):not(.dropdown-item):not([role]):not(.navbar-caption):hover {
-  transition: background-position 2s ease-in-out;
-  background-image: linear-gradient(currentColor 50%, currentColor 50%);
-  background-position: 0px 1.2em;
+  background-position: 0 1.2em;
 }
 .nav-tabs .nav-link.active {
   color: #ffca3a;
@@ -1858,27 +1853,6 @@ a {
   height: 100%;
   position: absolute;
   top: 0;
-}
-.cid-ugK7kgKqcx .bg-twitter {
-  background: #1da1f2;
-  color: #ffffff;
-}
-.cid-ugK7kgKqcx .bg-twitter:hover {
-  background: #0c85d0;
-}
-.cid-ugK7kgKqcx .bg-instagram {
-  background: #f00075;
-  color: #ffffff;
-}
-.cid-ugK7kgKqcx .bg-instagram:hover {
-  background: #bd005c;
-}
-.cid-ugK7kgKqcx .bg-tiktok {
-  background: #000000;
-  color: #ffffff;
-}
-.cid-ugK7kgKqcx .bg-tiktok:hover {
-  background: #000000;
 }
 .cid-ugK7kgKqcx .iconfont-wrapper {
   display: inline-block;
